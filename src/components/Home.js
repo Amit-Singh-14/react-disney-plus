@@ -20,7 +20,8 @@ const Container = styled.main`
   min-height: calc(100vh - 70px);
   padding: 0 calc(3.5vw + 5px);
   position: relative;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
+  overflow-y: hidden;
 
   &:before {
     background: url("/images/home-background.png") center center / cover

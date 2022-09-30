@@ -8,16 +8,28 @@ function Movies() {
 
       <Content>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9939/1279939-h-3be10a34342b" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9939/1279939-h-3be10a34342b"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4409/674409-h" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4409/674409-h"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9939/1279939-h-3be10a34342b" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/9939/1279939-h-3be10a34342b"
+            alt=""
+          />
         </Wrap>
         <Wrap>
-          <img src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4409/674409-h" />
+          <img
+            src="https://img1.hotstarext.com/image/upload/f_auto,t_web_hs_3x/sources/r1/cms/prod/4409/674409-h"
+            alt=""
+          />
         </Wrap>
       </Content>
     </Container>
@@ -44,6 +56,7 @@ const Wrap = styled.div`
 
   transition-duration: 0.3s;
   img {
+    /* overflow: hidden; */
     /* border-radius: 10px; */
     width: 100%;
     height: 100%;
