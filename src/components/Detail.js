@@ -139,7 +139,7 @@ const SubTitle = styled.div`
 
 const Description = styled.div`
   line-height: 1.4;
-  width: 50%;
+  /* width: 50%; */
   font-size: 20px;
   margin-top: 16px;
   color: rgb(249, 249, 249);
